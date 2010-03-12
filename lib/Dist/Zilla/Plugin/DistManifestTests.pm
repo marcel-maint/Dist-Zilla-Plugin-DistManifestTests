@@ -5,7 +5,6 @@ use warnings;
 package Dist::Zilla::Plugin::DistManifestTests;
 # ABSTRACT: release tests for the manifest
 use Moose;
-use Test::DistManifest;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
 __PACKAGE__->meta->make_immutable;
