@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::DistManifestTests;
-# ABSTRACT: release tests for the manifest
+# ABSTRACT: Release tests for the manifest
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
@@ -26,7 +26,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/dist-manifest.t - a standard Test::DistManifest test
 
